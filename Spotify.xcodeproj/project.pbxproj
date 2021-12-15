@@ -7,21 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A24BD132769534000E524B5 /* PlayerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A24BD122769534000E524B5 /* PlayerClass.swift */; };
+		7A24BD142769534000E524B5 /* PlayerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A24BD122769534000E524B5 /* PlayerClass.swift */; };
+		7A24BD172769547100E524B5 /* Billie Eilish - Getting Older.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A24BD162769547100E524B5 /* Billie Eilish - Getting Older.mp3 */; };
+		7A24BD182769547100E524B5 /* Billie Eilish - Getting Older.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A24BD162769547100E524B5 /* Billie Eilish - Getting Older.mp3 */; };
+		7A24BD1A276957C700E524B5 /* Dawn_Richard_-_Nostalgiacom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A24BD19276957C700E524B5 /* Dawn_Richard_-_Nostalgiacom.mp3 */; };
+		7A24BD1B276957C700E524B5 /* Dawn_Richard_-_Nostalgiacom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A24BD19276957C700E524B5 /* Dawn_Richard_-_Nostalgiacom.mp3 */; };
+		7A24BD1D2769589600E524B5 /* girl_in_red_-_Body_And_Mind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A24BD1C2769589600E524B5 /* girl_in_red_-_Body_And_Mind.mp3 */; };
+		7A24BD1E2769589600E524B5 /* girl_in_red_-_Body_And_Mind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A24BD1C2769589600E524B5 /* girl_in_red_-_Body_And_Mind.mp3 */; };
+		7A24BD23276958FA00E524B5 /* janelle-monae-dirty-computer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A24BD22276958FA00E524B5 /* janelle-monae-dirty-computer.mp3 */; };
+		7A24BD24276958FA00E524B5 /* janelle-monae-dirty-computer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A24BD22276958FA00E524B5 /* janelle-monae-dirty-computer.mp3 */; };
+		7A24BD262769594E00E524B5 /* Janelle Monae - Suite II Overture.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A24BD252769594E00E524B5 /* Janelle Monae - Suite II Overture.mp3 */; };
+		7A24BD272769594E00E524B5 /* Janelle Monae - Suite II Overture.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A24BD252769594E00E524B5 /* Janelle Monae - Suite II Overture.mp3 */; };
+		7A24BD2C27695A6500E524B5 /* Joy_Oladokun_-_sunday_(rum.muzikavsem.org).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A24BD2B27695A6500E524B5 /* Joy_Oladokun_-_sunday_(rum.muzikavsem.org).mp3 */; };
+		7A24BD2D27695A6500E524B5 /* Joy_Oladokun_-_sunday_(rum.muzikavsem.org).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A24BD2B27695A6500E524B5 /* Joy_Oladokun_-_sunday_(rum.muzikavsem.org).mp3 */; };
+		7A9405B227676671007E91E9 /* PlayerSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9405B127676671007E91E9 /* PlayerSmallView.swift */; };
+		7A9405B327676671007E91E9 /* PlayerSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9405B127676671007E91E9 /* PlayerSmallView.swift */; };
+		7A9405B82767E09C007E91E9 /* NavigationBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9405B72767E09C007E91E9 /* NavigationBars.swift */; };
+		7A9405B92767E09C007E91E9 /* NavigationBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9405B72767E09C007E91E9 /* NavigationBars.swift */; };
+		7A9405BB2769011D007E91E9 /* NewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9405BA2769011D007E91E9 /* NewListView.swift */; };
+		7A9405BC2769011D007E91E9 /* NewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9405BA2769011D007E91E9 /* NewListView.swift */; };
 		7A946DA12762133800E0AB3A /* SpotifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A946D912762133600E0AB3A /* SpotifyApp.swift */; };
 		7A946DA22762133800E0AB3A /* SpotifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A946D912762133600E0AB3A /* SpotifyApp.swift */; };
-		7A946DA32762133800E0AB3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A946D922762133600E0AB3A /* ContentView.swift */; };
-		7A946DA42762133800E0AB3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A946D922762133600E0AB3A /* ContentView.swift */; };
+		7A946DA32762133800E0AB3A /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A946D922762133600E0AB3A /* PlayerView.swift */; };
+		7A946DA42762133800E0AB3A /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A946D922762133600E0AB3A /* PlayerView.swift */; };
 		7A946DA52762133800E0AB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A946D932762133800E0AB3A /* Assets.xcassets */; };
 		7A946DA62762133800E0AB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A946D932762133800E0AB3A /* Assets.xcassets */; };
+		7A946DB02762CE1D00E0AB3A /* PlayerModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A946DAF2762CE1D00E0AB3A /* PlayerModelView.swift */; };
+		7A946DB12762CE1D00E0AB3A /* PlayerModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A946DAF2762CE1D00E0AB3A /* PlayerModelView.swift */; };
+		7AA9F6302764064B00B9C91F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA9F62F2764064B00B9C91F /* ListView.swift */; };
+		7AA9F6312764064B00B9C91F /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA9F62F2764064B00B9C91F /* ListView.swift */; };
+		7AEC797427651E7D00361A38 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEC797327651E7D00361A38 /* Extensions.swift */; };
+		7AEC797527651E7D00361A38 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEC797327651E7D00361A38 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A24BD122769534000E524B5 /* PlayerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerClass.swift; sourceTree = "<group>"; };
+		7A24BD162769547100E524B5 /* Billie Eilish - Getting Older.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Billie Eilish - Getting Older.mp3"; sourceTree = "<group>"; };
+		7A24BD19276957C700E524B5 /* Dawn_Richard_-_Nostalgiacom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dawn_Richard_-_Nostalgiacom.mp3"; sourceTree = "<group>"; };
+		7A24BD1C2769589600E524B5 /* girl_in_red_-_Body_And_Mind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "girl_in_red_-_Body_And_Mind.mp3"; sourceTree = "<group>"; };
+		7A24BD22276958FA00E524B5 /* janelle-monae-dirty-computer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "janelle-monae-dirty-computer.mp3"; sourceTree = "<group>"; };
+		7A24BD252769594E00E524B5 /* Janelle Monae - Suite II Overture.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Janelle Monae - Suite II Overture.mp3"; sourceTree = "<group>"; };
+		7A24BD2B27695A6500E524B5 /* Joy_Oladokun_-_sunday_(rum.muzikavsem.org).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Joy_Oladokun_-_sunday_(rum.muzikavsem.org).mp3"; sourceTree = "<group>"; };
+		7A9405B127676671007E91E9 /* PlayerSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSmallView.swift; sourceTree = "<group>"; };
+		7A9405B72767E09C007E91E9 /* NavigationBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBars.swift; sourceTree = "<group>"; };
+		7A9405BA2769011D007E91E9 /* NewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListView.swift; sourceTree = "<group>"; };
 		7A946D912762133600E0AB3A /* SpotifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyApp.swift; sourceTree = "<group>"; };
-		7A946D922762133600E0AB3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7A946D922762133600E0AB3A /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		7A946D932762133800E0AB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A946D982762133800E0AB3A /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A946D9E2762133800E0AB3A /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A946DA02762133800E0AB3A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7A946DAF2762CE1D00E0AB3A /* PlayerModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModelView.swift; sourceTree = "<group>"; };
+		7AA9F62F2764064B00B9C91F /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		7AEC797327651E7D00361A38 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +81,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A24BD152769545E00E524B5 /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A24BD162769547100E524B5 /* Billie Eilish - Getting Older.mp3 */,
+				7A24BD19276957C700E524B5 /* Dawn_Richard_-_Nostalgiacom.mp3 */,
+				7A24BD1C2769589600E524B5 /* girl_in_red_-_Body_And_Mind.mp3 */,
+				7A24BD22276958FA00E524B5 /* janelle-monae-dirty-computer.mp3 */,
+				7A24BD252769594E00E524B5 /* Janelle Monae - Suite II Overture.mp3 */,
+				7A24BD2B27695A6500E524B5 /* Joy_Oladokun_-_sunday_(rum.muzikavsem.org).mp3 */,
+			);
+			path = "Audio Files";
+			sourceTree = "<group>";
+		};
 		7A946D8B2762133600E0AB3A = {
 			isa = PBXGroup;
 			children = (
@@ -55,8 +107,16 @@
 			isa = PBXGroup;
 			children = (
 				7A946D912762133600E0AB3A /* SpotifyApp.swift */,
-				7A946D922762133600E0AB3A /* ContentView.swift */,
+				7A9405BA2769011D007E91E9 /* NewListView.swift */,
+				7AA9F62F2764064B00B9C91F /* ListView.swift */,
+				7A946D922762133600E0AB3A /* PlayerView.swift */,
+				7A9405B127676671007E91E9 /* PlayerSmallView.swift */,
+				7A9405B72767E09C007E91E9 /* NavigationBars.swift */,
+				7A946DAF2762CE1D00E0AB3A /* PlayerModelView.swift */,
+				7AEC797327651E7D00361A38 /* Extensions.swift */,
+				7A24BD122769534000E524B5 /* PlayerClass.swift */,
 				7A946D932762133800E0AB3A /* Assets.xcassets */,
+				7A24BD152769545E00E524B5 /* Audio Files */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -158,6 +218,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A946DA52762133800E0AB3A /* Assets.xcassets in Resources */,
+				7A24BD1D2769589600E524B5 /* girl_in_red_-_Body_And_Mind.mp3 in Resources */,
+				7A24BD23276958FA00E524B5 /* janelle-monae-dirty-computer.mp3 in Resources */,
+				7A24BD172769547100E524B5 /* Billie Eilish - Getting Older.mp3 in Resources */,
+				7A24BD262769594E00E524B5 /* Janelle Monae - Suite II Overture.mp3 in Resources */,
+				7A24BD1A276957C700E524B5 /* Dawn_Richard_-_Nostalgiacom.mp3 in Resources */,
+				7A24BD2C27695A6500E524B5 /* Joy_Oladokun_-_sunday_(rum.muzikavsem.org).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +232,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A946DA62762133800E0AB3A /* Assets.xcassets in Resources */,
+				7A24BD1E2769589600E524B5 /* girl_in_red_-_Body_And_Mind.mp3 in Resources */,
+				7A24BD24276958FA00E524B5 /* janelle-monae-dirty-computer.mp3 in Resources */,
+				7A24BD182769547100E524B5 /* Billie Eilish - Getting Older.mp3 in Resources */,
+				7A24BD272769594E00E524B5 /* Janelle Monae - Suite II Overture.mp3 in Resources */,
+				7A24BD1B276957C700E524B5 /* Dawn_Richard_-_Nostalgiacom.mp3 in Resources */,
+				7A24BD2D27695A6500E524B5 /* Joy_Oladokun_-_sunday_(rum.muzikavsem.org).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +248,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A946DA32762133800E0AB3A /* ContentView.swift in Sources */,
+				7A24BD132769534000E524B5 /* PlayerClass.swift in Sources */,
+				7AEC797427651E7D00361A38 /* Extensions.swift in Sources */,
+				7AA9F6302764064B00B9C91F /* ListView.swift in Sources */,
+				7A946DA32762133800E0AB3A /* PlayerView.swift in Sources */,
+				7A9405B227676671007E91E9 /* PlayerSmallView.swift in Sources */,
+				7A946DB02762CE1D00E0AB3A /* PlayerModelView.swift in Sources */,
+				7A9405BB2769011D007E91E9 /* NewListView.swift in Sources */,
 				7A946DA12762133800E0AB3A /* SpotifyApp.swift in Sources */,
+				7A9405B82767E09C007E91E9 /* NavigationBars.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +264,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A946DA42762133800E0AB3A /* ContentView.swift in Sources */,
+				7A24BD142769534000E524B5 /* PlayerClass.swift in Sources */,
+				7AEC797527651E7D00361A38 /* Extensions.swift in Sources */,
+				7AA9F6312764064B00B9C91F /* ListView.swift in Sources */,
+				7A946DA42762133800E0AB3A /* PlayerView.swift in Sources */,
+				7A9405B327676671007E91E9 /* PlayerSmallView.swift in Sources */,
+				7A946DB12762CE1D00E0AB3A /* PlayerModelView.swift in Sources */,
+				7A9405BC2769011D007E91E9 /* NewListView.swift in Sources */,
 				7A946DA22762133800E0AB3A /* SpotifyApp.swift in Sources */,
+				7A9405B92767E09C007E91E9 /* NavigationBars.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
