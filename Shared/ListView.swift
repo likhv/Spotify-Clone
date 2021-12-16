@@ -236,7 +236,7 @@ struct TrackListItem: View {
     var body: some View {
         ZStack {
             Rectangle()
-                .foregroundColor(.spotifyBlack)
+                .foregroundColor(.spotifyBlack.opacity(0))
             HStack(spacing: 11) {
                 Image(track.imageFile)
                     .resizable()

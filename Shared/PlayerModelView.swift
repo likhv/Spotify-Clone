@@ -17,6 +17,7 @@ struct Track: Identifiable {
     var audioFile: String
     var imageFile: String
     var isLiked: Bool = false
+    var animationFile: String
 }
 
 struct Playlist: Identifiable {
@@ -49,26 +50,26 @@ final class PlayerViewModel: ObservableObject {
     @Published var currentPlaylist = Playlist(name: "Nodding heads", text: "New feature: persons on these tracks' covers are nodding their heads in the rhythm of a song", hours: "2h 20m", imageFile: "NoddingHeads")
     
     @Published var listOfTracks = [
-        Track(artist: "Billie Eilish", title: "Getting older", album: "Happier than ever", audioFile: "Billie Eilish - Getting Older.mp3", imageFile: "Billie_Eilish-Happier_than_ever"),
-        Track(artist: "Dawn Richard", title: "Nostalgia", album: "Second line", audioFile: "Dawn_Richard_-_Nostalgiacom.mp3", imageFile: "Dawn_Richard-Second_line"),
-        Track(artist: "Girl in Red", title: "Body and mind", album: "If I Could Make It Go Quiet", audioFile: "girl_in_red_-_Body_And_Mind.mp3", imageFile: "Girl_in_Red-If_I_Could_Make_It_Go_Quiet"),
-        Track(artist: "Janelle Monae", title: "Dirty Computer", album: "Dirty Computer", audioFile: "janelle-monae-dirty-computer.mp3", imageFile: "Janelle_Monae-Dirty_Computer"),
-        Track(artist: "Janelle Monae", title: "Suite II Overture", album: "Electric Lad", audioFile: "Janelle Monae - Suite II Overture.mp3", imageFile: "Janelle_Monae-Electric_Lady"),
-        Track(artist: "Joy Oladokun", title: "Sunday", album: "In Defense of My Own Happiness", audioFile: "Joy_Oladokun_-_sunday_(rum.muzikavsem.org).mp3", imageFile: "Joy_Oladokun-In_Defense_of_My_Own_Happiness"),
+        Track(artist: "Billie Eilish", title: "Getting older", album: "Happier than ever", audioFile: "Billie Eilish - Getting Older.mp3", imageFile: "Billie_Eilish-Happier_than_ever", animationFile: "billie"),
+        Track(artist: "Dawn Richard", title: "Nostalgia", album: "Second line", audioFile: "Dawn_Richard_-_Nostalgiacom.mp3", imageFile: "Dawn_Richard-Second_line", animationFile: "dawn"),
+        Track(artist: "Girl in Red", title: "Body and mind", album: "If I Could Make It Go Quiet", audioFile: "girl_in_red_-_Body_And_Mind.mp3", imageFile: "Girl_in_Red-If_I_Could_Make_It_Go_Quiet", animationFile: "girl"),
+        Track(artist: "Janelle Monae", title: "Dirty Computer", album: "Dirty Computer", audioFile: "janelle-monae-dirty-computer.mp3", imageFile: "Janelle_Monae-Dirty_Computer", animationFile: "computer"),
+        Track(artist: "Janelle Monae", title: "Suite II Overture", album: "Electric Lad", audioFile: "Janelle Monae - Suite II Overture.mp3", imageFile: "Janelle_Monae-Electric_Lady", animationFile: "electric"),
+        Track(artist: "Joy Oladokun", title: "Sunday", album: "In Defense of My Own Happiness", audioFile: "Joy_Oladokun_-_sunday_(rum.muzikavsem.org).mp3", imageFile: "Joy_Oladokun-In_Defense_of_My_Own_Happiness", animationFile: "joy"),
         
-        Track(artist: "Billie Eilish", title: "Getting older", album: "Happier than ever", audioFile: "Billie Eilish - Getting Older.mp3", imageFile: "Billie_Eilish-Happier_than_ever"),
-        Track(artist: "Dawn Richard", title: "Nostalgia", album: "Second line", audioFile: "Dawn_Richard_-_Nostalgiacom.mp3", imageFile: "Dawn_Richard-Second_line"),
-        Track(artist: "Girl in Red", title: "Body and mind", album: "If I Could Make It Go Quiet", audioFile: "girl_in_red_-_Body_And_Mind.mp3", imageFile: "Girl_in_Red-If_I_Could_Make_It_Go_Quiet"),
-        Track(artist: "Janelle Monae", title: "Dirty Computer", album: "Dirty Computer", audioFile: "janelle-monae-dirty-computer.mp3", imageFile: "Janelle_Monae-Dirty_Computer"),
-        Track(artist: "Janelle Monae", title: "Suite II Overture", album: "Electric Lad", audioFile: "Janelle Monae - Suite II Overture.mp3", imageFile: "Janelle_Monae-Electric_Lady"),
-        Track(artist: "Joy Oladokun", title: "Sunday", album: "In Defense of My Own Happiness", audioFile: "Joy_Oladokun_-_sunday_(rum.muzikavsem.org).mp3", imageFile: "Joy_Oladokun-In_Defense_of_My_Own_Happiness"),
+        Track(artist: "Billie Eilish", title: "Getting older", album: "Happier than ever", audioFile: "Billie Eilish - Getting Older.mp3", imageFile: "Billie_Eilish-Happier_than_ever", animationFile: "billie"),
+        Track(artist: "Dawn Richard", title: "Nostalgia", album: "Second line", audioFile: "Dawn_Richard_-_Nostalgiacom.mp3", imageFile: "Dawn_Richard-Second_line", animationFile: "dawn"),
+        Track(artist: "Girl in Red", title: "Body and mind", album: "If I Could Make It Go Quiet", audioFile: "girl_in_red_-_Body_And_Mind.mp3", imageFile: "Girl_in_Red-If_I_Could_Make_It_Go_Quiet", animationFile: "girl"),
+        Track(artist: "Janelle Monae", title: "Dirty Computer", album: "Dirty Computer", audioFile: "janelle-monae-dirty-computer.mp3", imageFile: "Janelle_Monae-Dirty_Computer", animationFile: "computer"),
+        Track(artist: "Janelle Monae", title: "Suite II Overture", album: "Electric Lad", audioFile: "Janelle Monae - Suite II Overture.mp3", imageFile: "Janelle_Monae-Electric_Lady", animationFile: "electric"),
+        Track(artist: "Joy Oladokun", title: "Sunday", album: "In Defense of My Own Happiness", audioFile: "Joy_Oladokun_-_sunday_(rum.muzikavsem.org).mp3", imageFile: "Joy_Oladokun-In_Defense_of_My_Own_Happiness", animationFile: "joy"),
         
-        Track(artist: "Billie Eilish", title: "Getting older", album: "Happier than ever", audioFile: "Billie Eilish - Getting Older.mp3", imageFile: "Billie_Eilish-Happier_than_ever"),
-        Track(artist: "Dawn Richard", title: "Nostalgia", album: "Second line", audioFile: "Dawn_Richard_-_Nostalgiacom.mp3", imageFile: "Dawn_Richard-Second_line"),
-        Track(artist: "Girl in Red", title: "Body and mind", album: "If I Could Make It Go Quiet", audioFile: "girl_in_red_-_Body_And_Mind.mp3", imageFile: "Girl_in_Red-If_I_Could_Make_It_Go_Quiet"),
-        Track(artist: "Janelle Monae", title: "Dirty Computer", album: "Dirty Computer", audioFile: "janelle-monae-dirty-computer.mp3", imageFile: "Janelle_Monae-Dirty_Computer"),
-        Track(artist: "Janelle Monae", title: "Suite II Overture", album: "Electric Lad", audioFile: "Janelle Monae - Suite II Overture.mp3", imageFile: "Janelle_Monae-Electric_Lady"),
-        Track(artist: "Joy Oladokun", title: "Sunday", album: "In Defense of My Own Happiness", audioFile: "Joy_Oladokun_-_sunday_(rum.muzikavsem.org).mp3", imageFile: "Joy_Oladokun-In_Defense_of_My_Own_Happiness"),]
+        Track(artist: "Billie Eilish", title: "Getting older", album: "Happier than ever", audioFile: "Billie Eilish - Getting Older.mp3", imageFile: "Billie_Eilish-Happier_than_ever", animationFile: "billie"),
+        Track(artist: "Dawn Richard", title: "Nostalgia", album: "Second line", audioFile: "Dawn_Richard_-_Nostalgiacom.mp3", imageFile: "Dawn_Richard-Second_line", animationFile: "dawn"),
+        Track(artist: "Girl in Red", title: "Body and mind", album: "If I Could Make It Go Quiet", audioFile: "girl_in_red_-_Body_And_Mind.mp3", imageFile: "Girl_in_Red-If_I_Could_Make_It_Go_Quiet", animationFile: "girl"),
+        Track(artist: "Janelle Monae", title: "Dirty Computer", album: "Dirty Computer", audioFile: "janelle-monae-dirty-computer.mp3", imageFile: "Janelle_Monae-Dirty_Computer", animationFile: "computer"),
+        Track(artist: "Janelle Monae", title: "Suite II Overture", album: "Electric Lad", audioFile: "Janelle Monae - Suite II Overture.mp3", imageFile: "Janelle_Monae-Electric_Lady", animationFile: "electric"),
+        Track(artist: "Joy Oladokun", title: "Sunday", album: "In Defense of My Own Happiness", audioFile: "Joy_Oladokun_-_sunday_(rum.muzikavsem.org).mp3", imageFile: "Joy_Oladokun-In_Defense_of_My_Own_Happiness", animationFile: "joy"),]
     
     
     func nextTrack() {
@@ -86,6 +87,7 @@ final class PlayerViewModel: ObservableObject {
         }
         prepareSound(soundfile: listOfTracks[currentTrack].audioFile)
         audioPlayer.play()
+        checkCurrentTime()
         isPlaying = true
     }
     
@@ -103,6 +105,7 @@ final class PlayerViewModel: ObservableObject {
             }
         }
         prepareSound(soundfile: listOfTracks[currentTrack].audioFile)
+        checkCurrentTime()
         audioPlayer.play()
         isPlaying = true
     }
@@ -221,7 +224,10 @@ final class PlayerViewModel: ObservableObject {
     
     func checkCurrentTime() {
         currentTime = Double(Int(audioPlayer.currentTime))
-        part = currentTime / (Double(Int(audioPlayer.duration)) + 0.01)
+        part = currentTime / (audioPlayer.duration + 0.0001)
+        if Int(currentTime) == Int(audioPlayer.duration)-1 {
+            nextTrack()
+        }
     }
     
 }

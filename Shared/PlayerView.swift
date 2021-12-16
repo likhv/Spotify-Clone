@@ -96,14 +96,35 @@ struct AlbumCoverView: View {
     @EnvironmentObject var playerViewModel: PlayerViewModel
     var imageName: String
     @Binding var offsetMomentum: Double
+    @State var isCoverAnimated: Bool = false
     
     var body: some View {
         ZStack {
-            Image(imageName)
-                .resizable()
-                .aspectRatio(1, contentMode: .fit)
-                .foregroundColor(.white)
+            if isCoverAnimated {
+                AnimatedSequence()
+                    .aspectRatio(1, contentMode: .fit)
+            } else {
+                Image(imageName)
+                    .resizable()
+                    .aspectRatio(1, contentMode: .fit)
+                    .foregroundColor(.white)
+            }
+              
         }
+        .overlay(
+            VStack {
+                HStack {
+                    Spacer()
+                    Image(systemName: isCoverAnimated ? "sparkles.rectangle.stack.fill" : "sparkles.rectangle.stack")
+                        .font(.system(size: 22, weight: .light))
+                        .padding(10)
+                        .onTapGesture() {
+                            isCoverAnimated.toggle()
+                        }
+                }
+                Spacer()
+            }
+        )
         
         .gesture(DragGesture(minimumDistance: 20, coordinateSpace: .global)
             .onChanged { gesture in
@@ -139,6 +160,8 @@ struct ProgressBar: View {
     var currrentTime: Double {playerViewModel.currentTime}
     var duration: Double {Double(Int(playerViewModel.audioPlayer.duration))}
     var part: Double {playerViewModel.part}
+//    var part = 0.0
+
     
     var body: some View {
         
@@ -146,25 +169,29 @@ struct ProgressBar: View {
             ZStack {
                 
                 Rectangle()
-                    .frame(width: widthOfScreen-50, height: 4)
+                    .frame(width: widthOfScreen-52 , height: 4)
                     .foregroundColor(.white)
                     .opacity(0.2)
                     .cornerRadius(4)
                 
                 HStack {
+                    
                     Rectangle()
-                        .frame(width: ((widthOfScreen-50) * part), height: 4)
+                        .frame(width: ((widthOfScreen-52) * part), height: 4)
                         .foregroundColor(.white)
                         .cornerRadius(4)
-                        .animation(.default)
-                    Spacer()
+                        .padding(.trailing, (widthOfScreen-52) * (1-part))
+                    
+   
                 }
+
                 
                 HStack {
                     Circle()
                         .frame(width: 15, height: 15, alignment: .leading)
                         .foregroundColor(.white)
-                        .offset(x: ((widthOfScreen-65) * part))
+                        .offset(x: ((widthOfScreen-67) * part))
+
                     Spacer()
                 }
             }
